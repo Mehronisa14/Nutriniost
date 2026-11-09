@@ -1,0 +1,1582 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Mehro Nisa Malik | Registered Clinical Dietitian &amp; Nutritionist</title>
+<!-- Google Fonts: Playfair Display & Plus Jakarta Sans -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols Outlined -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS v3 with Plugins -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Config verbatum from design system -->
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "secondary": "#54624f",
+            "outline": "#75786f",
+            "on-tertiary-fixed-variant": "#3d4b31",
+            "on-error": "#ffffff",
+            "secondary-fixed-dim": "#bbcbb3",
+            "surface-tint": "#546349",
+            "tertiary-fixed-dim": "#bbccaa",
+            "surface-container-highest": "#e4e2dd",
+            "on-tertiary": "#ffffff",
+            "on-primary": "#ffffff",
+            "primary-fixed": "#d7e8c8",
+            "surface-dim": "#dcdad4",
+            "tertiary": "#546347",
+            "on-secondary": "#ffffff",
+            "surface": "#fbf9f3",
+            "inverse-surface": "#30312d",
+            "surface-container-high": "#eae8e2",
+            "surface-variant": "#e4e2dd",
+            "surface-container": "#f0eee8",
+            "error-container": "#ffdad6",
+            "on-background": "#1b1c18",
+            "on-primary-container": "#3b4932",
+            "primary-fixed-dim": "#bbccad",
+            "on-primary-fixed": "#121f0b",
+            "on-primary-fixed-variant": "#3d4b33",
+            "background": "#fbf9f3",
+            "on-tertiary-container": "#3b4930",
+            "inverse-primary": "#bbccad",
+            "secondary-fixed": "#d7e7cf",
+            "surface-container-lowest": "#ffffff",
+            "inverse-on-surface": "#f3f1eb",
+            "on-tertiary-fixed": "#121f09",
+            "error": "#ba1a1a",
+            "on-secondary-container": "#586753",
+            "on-surface-variant": "#444840",
+            "primary-container": "#a8b89a",
+            "tertiary-container": "#a8b897",
+            "tertiary-fixed": "#d7e8c5",
+            "secondary-container": "#d4e5cc",
+            "surface-container-low": "#f5f3ed",
+            "surface-bright": "#fbf9f3",
+            "on-secondary-fixed-variant": "#3c4b38",
+            "on-error-container": "#93000a",
+            "outline-variant": "#c5c8bd",
+            "on-surface": "#1b1c18",
+            "on-secondary-fixed": "#121f0f",
+            "primary": "#546349"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "space-xl": "2.5rem",
+            "margin": "3rem",
+            "gutter": "1.5rem",
+            "space-md": "1rem",
+            "space-lg": "1.5rem",
+            "space-sm": "0.5rem",
+            "margin-mobile": "1.25rem",
+            "gutter-mobile": "1rem",
+            "space-xs": "0.25rem"
+          },
+          "fontFamily": {
+            "label-lg": ["Plus Jakarta Sans"],
+            "body-md": ["Plus Jakarta Sans"],
+            "headline-md": ["Playfair Display"],
+            "headline-sm": ["Playfair Display"],
+            "title-md": ["Plus Jakarta Sans"],
+            "title-lg": ["Plus Jakarta Sans"],
+            "headline-lg-mobile": ["Playfair Display"],
+            "body-sm": ["Plus Jakarta Sans"],
+            "display-lg-mobile": ["Playfair Display"],
+            "headline-lg": ["Playfair Display"],
+            "body-lg": ["Plus Jakarta Sans"],
+            "label-sm": ["Plus Jakarta Sans"],
+            "label-md": ["Plus Jakarta Sans"],
+            "display-lg": ["Playfair Display"]
+          },
+          "fontSize": {
+            "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.04em", "fontWeight": "600" }],
+            "body-md": ["15px", { "lineHeight": "24px", "fontWeight": "400" }],
+            "headline-md": ["28px", { "lineHeight": "36px", "fontWeight": "600" }],
+            "headline-sm": ["22px", { "lineHeight": "30px", "fontWeight": "600" }],
+            "title-md": ["17px", { "lineHeight": "24px", "fontWeight": "600" }],
+            "title-lg": ["20px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+            "headline-lg-mobile": ["30px", { "lineHeight": "38px", "fontWeight": "600" }],
+            "body-sm": ["13px", { "lineHeight": "20px", "fontWeight": "400" }],
+            "display-lg-mobile": ["38px", { "lineHeight": "48px", "letterSpacing": "-0.01em", "fontWeight": "500" }],
+            "headline-lg": ["40px", { "lineHeight": "50px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+            "body-lg": ["17px", { "lineHeight": "28px", "fontWeight": "400" }],
+            "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.08em", "fontWeight": "600" }],
+            "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.06em", "fontWeight": "500" }],
+            "display-lg": ["56px", { "lineHeight": "68px", "letterSpacing": "-0.02em", "fontWeight": "500" }]
+          }
+        },
+      },
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 1;
+    }
+    .material-symbols-fill {
+      font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+    .clinical-card-shadow {
+      box-shadow: 0 4px 20px -2px rgba(57, 71, 53, 0.05), 0 1px 3px rgba(57, 71, 53, 0.03);
+    }
+    .clinical-card-shadow:hover {
+      box-shadow: 0 12px 32px -4px rgba(57, 71, 53, 0.09), 0 2px 6px rgba(57, 71, 53, 0.04);
+      transform: translateY(-2px);
+    }
+    .custom-scrollbar::-webkit-scrollbar {
+      width: 6px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: #c5c8bd;
+      border-radius: 9999px;
+    }
+  </style>
+</head>
+<body class="bg-surface text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container">
+<!-- TOP NAVIGATION BAR (TopNavBar Shared Component) -->
+<header class="bg-surface/90 backdrop-blur-md dark:bg-surface/90 docked full-width top-0 sticky z-50 shadow-[0_4px_20px_-2px_rgba(57,71,53,0.05)] border-b border-outline-variant/30">
+<div class="flex justify-between items-center w-full px-6 md:px-12 max-w-[1360px] mx-auto h-20">
+<!-- Brand Logo / Designation -->
+<a class="group flex items-center gap-3" href="#">
+<div class="w-10 h-10 rounded-full bg-primary-container flex items-center justify-center text-on-primary-container font-headline-sm font-semibold text-lg transition-transform group-hover:scale-105">
+          M
+        </div>
+<div class="flex flex-col">
+<span class="text-title-lg font-title-lg text-primary dark:text-inverse-primary tracking-tight font-bold">
+            Mehro Nisa Malik
+          </span>
+<span class="text-label-sm font-label-sm text-outline uppercase tracking-wider -mt-0.5">
+            Registered Clinical Dietitian (RD)
+          </span>
+</div>
+</a>
+<!-- Desktop Nav Items -->
+<nav class="hidden md:flex items-center gap-8 text-label-lg font-label-lg">
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-200" href="#about">About</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-200" href="#services">Clinical Services</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-200" href="#plans">Diet Plans</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-200" href="#insights">Insights</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-200" href="#testimonials">Testimonials</a>
+</nav>
+<!-- Trailing Action Buttons -->
+<div class="flex items-center gap-3">
+<a class="hidden sm:inline-flex items-center gap-2 px-4 py-2.5 rounded-full bg-[#25D366]/10 text-[#128C7E] font-label-md text-label-md hover:bg-[#25D366]/20 transition-all active:scale-95" href="https://wa.me/923001234567" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-base">chat</span>
+<span>WhatsApp</span>
+</a>
+<a class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-primary text-on-primary font-label-md text-label-md hover:bg-secondary transition-all shadow-sm active:scale-95" href="#booking">
+<span>Book Consultation</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+<button id="mobile-menu-btn" class="md:hidden p-2 rounded-xl text-on-surface-variant hover:bg-surface-container transition-colors" aria-label="Toggle navigation menu">
+<span class="material-symbols-outlined text-2xl" id="menu-icon">menu</span>
+</button>
+</div>
+</div>
+<!-- Mobile Navigation Drawer -->
+<div id="mobile-menu" class="hidden md:hidden border-t border-outline-variant/30 bg-surface/98 backdrop-blur-md px-6 py-4 shadow-lg transition-all duration-300">
+  <nav class="flex flex-col gap-2 font-label-md text-label-md">
+    <a class="py-2.5 px-3 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-primary transition-colors" href="#about">About Mehro Nisa</a>
+    <a class="py-2.5 px-3 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-primary transition-colors" href="#services">Clinical Services</a>
+    <a class="py-2.5 px-3 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-primary transition-colors" href="#plans">Personalized Plans</a>
+    <a class="py-2.5 px-3 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-primary transition-colors" href="#insights">Nutrition Insights</a>
+    <a class="py-2.5 px-3 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-primary transition-colors" href="#testimonials">Patient Reviews</a>
+    <a class="mt-2 py-3 px-4 flex items-center justify-center gap-2 rounded-xl bg-[#25D366]/15 text-[#128C7E] font-semibold" href="https://wa.me/923001234567" target="_blank">
+      <span class="material-symbols-outlined text-base">chat</span> Direct Clinic WhatsApp
+    </a>
+  </nav>
+</div>
+</header>
+<!-- MAIN HERO SECTION -->
+<section class="relative overflow-hidden pt-8 pb-16 md:pt-14 md:pb-24">
+<!-- Ambient organic gradient background hints -->
+<div class="absolute top-0 right-0 w-[550px] h-[550px] bg-secondary-container/40 rounded-full blur-3xl -z-10 pointer-events-none translate-x-1/3 -translate-y-1/4"></div>
+<div class="absolute bottom-0 left-0 w-[450px] h-[450px] bg-primary-fixed/30 rounded-full blur-3xl -z-10 pointer-events-none -translate-x-1/4 translate-y-1/4"></div>
+<div class="max-w-[1360px] mx-auto px-6 md:px-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<!-- Left Content Column -->
+<div class="lg:col-span-7 flex flex-col items-start">
+<!-- Category Pill -->
+<div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-surface-container border border-outline-variant/50 text-secondary font-label-md text-label-md mb-6 shadow-sm">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span>✨ Certified Clinical Nutrition &amp; Medical Dietetics</span>
+</div>
+<!-- Main Heading -->
+<h1 class="font-display-lg text-headline-lg md:text-display-lg text-on-surface tracking-tight text-balance leading-tight mb-6">
+            Transform Your Health Through Better Nutrition
+          </h1>
+<!-- Subheading -->
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl leading-relaxed mb-6">
+            Personalized nutrition care for a healthier, happier you. Let's build a lifestyle that nourishes your body and supports your wellbeing.
+          </p>
+<!-- Byline -->
+<div class="flex items-center gap-3 p-3 bg-surface-container-low rounded-xl border border-outline-variant/40 mb-8 w-full sm:w-auto">
+<span class="material-symbols-outlined text-primary text-2xl">verified</span>
+<div>
+<p class="text-title-md font-title-md text-primary leading-tight">Mehro Nisa Malik</p>
+<p class="text-body-sm font-body-sm text-outline">Registered Clinical Dietitian &amp; Nutrition Consultant</p>
+</div>
+</div>
+<!-- Dual CTAs -->
+<div class="flex flex-wrap items-center gap-4 w-full sm:w-auto mb-12">
+<a class="w-full sm:w-auto px-8 py-3.5 rounded-full bg-primary hover:bg-secondary text-on-primary font-label-lg text-label-lg transition-all duration-200 text-center shadow-md active:scale-95 flex items-center justify-center gap-2" href="#booking">
+<span class="material-symbols-outlined text-lg">calendar_month</span>
+<span>Book a Consultation</span>
+</a>
+<a class="w-full sm:w-auto px-8 py-3.5 rounded-full bg-transparent hover:bg-surface-container text-primary border border-outline-variant font-label-lg text-label-lg transition-all duration-200 text-center active:scale-95" href="#services">
+              Explore My Services
+            </a>
+</div>
+<!-- Trust Stats Bar -->
+<div class="w-full pt-8 border-t border-outline-variant/40 grid grid-cols-2 sm:grid-cols-4 gap-6">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-primary font-bold">2,500+</span>
+<span class="font-label-sm text-label-sm text-outline uppercase">Lives Transformed</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-primary font-bold">98%</span>
+<span class="font-label-sm text-label-sm text-outline uppercase">Patient Satisfaction</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-primary font-bold">10+ Years</span>
+<span class="font-label-sm text-label-sm text-outline uppercase">Clinical Practice</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-primary font-bold">M.Phil</span>
+<span class="font-label-sm text-label-sm text-outline uppercase">Clinical Dietetics</span>
+</div>
+</div>
+</div>
+<!-- Right Visual Showcase -->
+<div class="lg:col-span-5 relative flex justify-center">
+<!-- Background Architectural Aura -->
+<div class="relative w-full max-w-[440px] aspect-[4/5]">
+<!-- Arched Luxury Border Wrapper -->
+<div class="w-full h-full rounded-t-[14rem] rounded-b-3xl overflow-hidden border-2 border-outline-variant/60 shadow-xl bg-surface-container relative">
+<img alt="Mehro Nisa Malik, Clinical Dietitian" class="w-full h-full object-cover object-top hover:scale-102 transition-transform duration-700" src="assets/mehro-nisa-portrait.png" onerror="this.onerror=null;this.src='https://lh3.googleusercontent.com/aida-public/AB6AXuBKkepzcUiQfzuKN7O4JV1tB8mUKJa19F3_AZf40sggBcaBdXrxDv7FzeSAz_ZhUhn4z3l0itbsH-TmXupfXbLFbfKptI3Y7jIfW1qyULXamHg7HZFLf8_oVs_6MN3Z31GjZp2QOwjhoUoyGFwSvyck4z4c_4JD_bGOjRBeU-8hbLS-gGNx9uSUy7k91C4TB6HEOQQv3hwWrXKYLzE6mk58CAWVJmN_TaKz7UkU8Wc'"/>
+<!-- Subtle bottom gradient -->
+<div class="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-surface-container-high/90 to-transparent flex items-end p-6">
+<div class="bg-surface-container-lowest/90 backdrop-blur-sm px-4 py-2 rounded-xl border border-outline-variant/40 shadow-sm">
+<p class="font-title-md text-title-md text-primary leading-tight font-bold">Mehro Nisa Malik, RD</p>
+<p class="font-body-sm text-body-sm text-outline">PNDS &amp; AND Accredited</p>
+</div>
+</div>
+</div>
+<!-- Floating Pill Badge 1: Evidence-Based Nutrition -->
+<div class="absolute -top-3 -left-4 sm:-left-6 bg-surface-container-lowest border border-outline-variant/40 py-2.5 px-4 rounded-2xl shadow-lg flex items-center gap-3 backdrop-blur-md animate-bounce" style="animation-duration: 4s;">
+<div class="w-8 h-8 rounded-full bg-secondary-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-lg">microbiology</span>
+</div>
+<div>
+<p class="text-label-md font-label-md text-on-surface font-bold">Evidence-Based</p>
+<p class="text-label-sm font-label-sm text-outline">Clinical Nutrition</p>
+</div>
+</div>
+<!-- Floating Pill Badge 2: Hormone & Metabolic Care -->
+<div class="absolute top-1/2 -right-4 sm:-right-8 bg-surface-container-lowest border border-outline-variant/40 py-2.5 px-4 rounded-2xl shadow-lg flex items-center gap-3 backdrop-blur-md">
+<div class="w-8 h-8 rounded-full bg-tertiary-container flex items-center justify-center text-on-tertiary-container">
+<span class="material-symbols-outlined text-lg">cardiology</span>
+</div>
+<div>
+<p class="text-label-md font-label-md text-on-surface font-bold">Hormone &amp; Metabolic</p>
+<p class="text-label-sm font-label-sm text-outline">Specialist Protocol</p>
+</div>
+</div>
+<!-- Secondary Culinary Preview Bowl Floating Bottom Card -->
+<div class="absolute -bottom-8 -left-6 sm:-left-10 w-44 sm:w-52 rounded-2xl overflow-hidden shadow-2xl border-2 border-surface-container-lowest bg-surface-container-lowest p-2 hidden sm:block">
+<div class="relative w-full h-28 rounded-xl overflow-hidden mb-2">
+<img alt="Balanced Mediterranean &amp; Desi Nutrition Plate" class="w-full h-full object-cover" src="assets/balanced-nutrition.png" onerror="this.onerror=null;this.src='https://lh3.googleusercontent.com/aida-public/AB6AXuBn-AC6K4AYQN5ETSwg4LJrjBv_kDsxF3kI9rAK9FiSEkVXWqTVRgbNCktPSmBV6o0VETCRJOwcfTYdQhPUUXngr1J4OWmazjj5fS7asotR5a_-YeARTSn-n05XdrU9h1gmFxAyeJgCxYa0HRGwGP6AldDucEuH3T43_F1nXlEiwFyG8vGwY9T5M5OMpIenFv9TibzOg8O9w5uZPegWi2Z_Qt0Y7l626A_Ym0aeISs'"/>
+</div>
+<div class="px-1.5 pb-1">
+<div class="flex items-center justify-between text-label-sm font-label-sm text-primary font-semibold">
+<span>Balanced Bowl</span>
+<span>480 kcal</span>
+</div>
+<div class="w-full bg-surface-container-highest h-1.5 rounded-full mt-1.5 overflow-hidden">
+<div class="bg-primary h-full w-4/5 rounded-full"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ABOUT ME SECTION ("Meet Your Clinical Dietitian") -->
+<section class="py-20 bg-surface-container-low border-y border-outline-variant/30" id="about">
+<div class="max-w-[1360px] mx-auto px-6 md:px-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<!-- Left Image & Verified Badge -->
+<div class="lg:col-span-5 flex flex-col items-center">
+<div class="relative w-full max-w-[420px]">
+<div class="relative rounded-3xl overflow-hidden border border-outline-variant/50 clinical-card-shadow bg-surface-container-lowest">
+<img alt="Mehro Nisa Malik in Clinical Consultation" class="w-full h-[480px] object-cover object-top" src="assets/mehro-nisa-portrait.png" onerror="this.onerror=null;this.src='https://lh3.googleusercontent.com/aida-public/AB6AXuBKkepzcUiQfzuKN7O4JV1tB8mUKJa19F3_AZf40sggBcaBdXrxDv7FzeSAz_ZhUhn4z3l0itbsH-TmXupfXbLFbfKptI3Y7jIfW1qyULXamHg7HZFLf8_oVs_6MN3Z31GjZp2QOwjhoUoyGFwSvyck4z4c_4JD_bGOjRBeU-8hbLS-gGNx9uSUy7k91C4TB6HEOQQv3hwWrXKYLzE6mk58CAWVJmN_TaKz7UkU8Wc'"/>
+<!-- Clinical Signature & Accreditation ID Bar -->
+<div class="p-6 bg-surface-container-lowest border-t border-outline-variant/30 flex items-center justify-between">
+<div>
+<p class="font-headline-sm text-headline-sm text-primary font-serif italic">Mehro Nisa Malik</p>
+<p class="font-label-sm text-label-sm text-outline">Registered Dietitian Registration #RD-48291</p>
+</div>
+<div class="w-12 h-12 rounded-full border border-primary/20 bg-primary-fixed/40 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-2xl">license</span>
+</div>
+</div>
+</div>
+<!-- Floating Accreditations Pill -->
+<div class="absolute -bottom-4 right-6 bg-primary text-on-primary px-4 py-2 rounded-full font-label-sm text-label-sm shadow-md flex items-center gap-1.5">
+<span class="material-symbols-outlined text-sm">workspace_premium</span>
+<span>10+ Years Tertiary Hospital Care</span>
+</div>
+</div>
+</div>
+<!-- Right Narrative & 4 Pillars -->
+<div class="lg:col-span-7">
+<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-surface-container border border-outline-variant/50 text-secondary font-label-sm text-label-sm mb-4">
+<span>CLINICAL PRACTITIONER &amp; MEDICAL NUTRITIONIST</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-6">
+            Meet Your Clinical Dietitian
+          </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed mb-4">
+            I am Mehro Nisa Malik, an experienced Registered Clinical Dietitian passionate about bridging clinical diagnostics with real-life nutrition. I believe that healing begins on the plate, but it should never come at the expense of your joy, cultural food identity, or sanity.
+          </p>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-8">
+            Having managed complex acute and chronic conditions in top tertiary care hospitals, my philosophy rejects dangerous crash diets, detox teas, and impossible restrictions. Instead, we use personalized clinical biochemistry, hormone balancing, and sustainable meal design so your healthy lifestyle becomes effortless and lifelong.
+          </p>
+<!-- 4 Pillars Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<!-- Pillar 1 -->
+<div class="bg-surface-container-lowest p-5 rounded-2xl border border-outline-variant/40 clinical-card-shadow transition-all">
+<div class="w-10 h-10 rounded-xl bg-secondary-container flex items-center justify-center text-primary mb-3">
+<span class="material-symbols-outlined text-xl">school</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface mb-1 font-semibold">Qualifications &amp; Accreditation</h3>
+<p class="font-body-sm text-body-sm text-outline">
+                M.Sc. &amp; M.Phil in Human Nutrition &amp; Dietetics. Active member of Pakistan Nutrition and Dietetic Society (PNDS) &amp; Academy of Nutrition &amp; Dietetics (AND).
+              </p>
+</div>
+<!-- Pillar 2 -->
+<div class="bg-surface-container-lowest p-5 rounded-2xl border border-outline-variant/40 clinical-card-shadow transition-all">
+<div class="w-10 h-10 rounded-xl bg-primary-fixed flex items-center justify-center text-primary mb-3">
+<span class="material-symbols-outlined text-xl">local_hospital</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface mb-1 font-semibold">Clinical Hospital Experience</h3>
+<p class="font-body-sm text-body-sm text-outline">
+                Over a decade managing specialized ICU nutrition, medical wards, gestational clinics, and diabetic management centers in top teaching hospitals.
+              </p>
+</div>
+<!-- Pillar 3 -->
+<div class="bg-surface-container-lowest p-5 rounded-2xl border border-outline-variant/40 clinical-card-shadow transition-all">
+<div class="w-10 h-10 rounded-xl bg-tertiary-container flex items-center justify-center text-on-tertiary-container mb-3">
+<span class="material-symbols-outlined text-xl">chips</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface mb-1 font-semibold">Evidence-Based Philosophy</h3>
+<p class="font-body-sm text-body-sm text-outline">
+                No restrictive fad diets. Every intervention is backed by lab blood work, digestive biomarkers, metabolic rate, and your family lifestyle.
+              </p>
+</div>
+<!-- Pillar 4 -->
+<div class="bg-surface-container-lowest p-5 rounded-2xl border border-outline-variant/40 clinical-card-shadow transition-all">
+<div class="w-10 h-10 rounded-xl bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed-variant mb-3">
+<span class="material-symbols-outlined text-xl">award_star</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface mb-1 font-semibold">Notable Achievements</h3>
+<p class="font-body-sm text-body-sm text-outline">
+                Keynote speaker on PCOS &amp; metabolic syndrome, published researcher in nutritional biochemistry, and trusted wellness guide to over 2,500+ happy patients.
+              </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CLINICAL SERVICES SECTION (3x3 Grid) -->
+<section class="py-24" id="services">
+<div class="max-w-[1360px] mx-auto px-6 md:px-12">
+<!-- Section Header -->
+<div class="max-w-2xl mx-auto text-center mb-16">
+<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-surface-container border border-outline-variant/50 text-secondary font-label-sm text-label-sm mb-3">
+<span>MEDICAL NUTRITION THERAPY (MNT)</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-4">
+          Comprehensive Clinical Nutrition Services
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+          Scientifically tailored nutritional therapy addressing the root causes of health challenges, backed by laboratory assessment and clinical empathy.
+        </p>
+</div>
+<!-- 9-Card Interactive Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Service 1: Weight Management -->
+<div class="bg-surface-container-lowest rounded-2xl border border-outline-variant/40 p-8 clinical-card-shadow transition-all duration-300 flex flex-col justify-between group">
+<div>
+<div class="flex items-center justify-between mb-6">
+<div class="w-12 h-12 rounded-xl bg-secondary-container flex items-center justify-center text-primary group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-2xl">scale</span>
+</div>
+<span class="px-3 py-1 rounded-full bg-surface-container text-secondary text-label-sm font-label-sm">
+                Targeted Fat Loss
+              </span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface mb-3 font-semibold group-hover:text-primary transition-colors">
+              Weight Management
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6">
+              Sustainable fat reduction and lean muscle preservation without starvation or metabolic slowdown. Focuses on hormonal balancing and long-term satiety.
+            </p>
+</div>
+<div class="pt-4 border-t border-outline-variant/30 flex items-center justify-between">
+<span class="text-label-sm font-label-sm text-outline">Custom Macro Tracking</span>
+<a class="text-primary hover:text-secondary font-label-md text-label-md inline-flex items-center gap-1 font-semibold" href="#booking">
+<span>Book for this</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Service 2: Diabetes Nutrition Management -->
+<div class="bg-surface-container-lowest rounded-2xl border border-outline-variant/40 p-8 clinical-card-shadow transition-all duration-300 flex flex-col justify-between group">
+<div>
+<div class="flex items-center justify-between mb-6">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center text-primary group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-2xl">glucose</span>
+</div>
+<span class="px-3 py-1 rounded-full bg-surface-container text-secondary text-label-sm font-label-sm">
+                Glycemic Control
+              </span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface mb-3 font-semibold group-hover:text-primary transition-colors">
+              Diabetes Nutrition Management
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6">
+              Proven clinical protocols for Type 2 Diabetes, Pre-diabetes, and Gestational Diabetes. Lower HbA1c levels, prevent glucose spikes, and improve insulin sensitivity.
+            </p>
+</div>
+<div class="pt-4 border-t border-outline-variant/30 flex items-center justify-between">
+<span class="text-label-sm font-label-sm text-outline">Lab Work Analysis</span>
+<a class="text-primary hover:text-secondary font-label-md text-label-md inline-flex items-center gap-1 font-semibold" href="#booking">
+<span>Book for this</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Service 3: PCOS Nutrition Support -->
+<div class="bg-surface-container-lowest rounded-2xl border border-outline-variant/40 p-8 clinical-card-shadow transition-all duration-300 flex flex-col justify-between group">
+<div>
+<div class="flex items-center justify-between mb-6">
+<div class="w-12 h-12 rounded-xl bg-tertiary-container flex items-center justify-center text-on-tertiary-container group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-2xl">female</span>
+</div>
+<span class="px-3 py-1 rounded-full bg-surface-container text-secondary text-label-sm font-label-sm">
+                Hormonal Health
+              </span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface mb-3 font-semibold group-hover:text-primary transition-colors">
+              PCOS Nutrition Support
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6">
+              Specialized dietary intervention to regulate menstrual cycles, manage hirsutism, reduce stubborn belly adiposity, and promote natural fertility.
+            </p>
+</div>
+<div class="pt-4 border-t border-outline-variant/30 flex items-center justify-between">
+<span class="text-label-sm font-label-sm text-outline">Cycle Syncing Meals</span>
+<a class="text-primary hover:text-secondary font-label-md text-label-md inline-flex items-center gap-1 font-semibold" href="#booking">
+<span>Book for this</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Service 4: Heart Health & Cholesterol -->
+<div class="bg-surface-container-lowest rounded-2xl border border-outline-variant/40 p-8 clinical-card-shadow transition-all duration-300 flex flex-col justify-between group">
+<div>
+<div class="flex items-center justify-between mb-6">
+<div class="w-12 h-12 rounded-xl bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed-variant group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-2xl">cardiology</span>
+</div>
+<span class="px-3 py-1 rounded-full bg-surface-container text-secondary text-label-sm font-label-sm">
+                Lipid Profile Care
+              </span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface mb-3 font-semibold group-hover:text-primary transition-colors">
+              Heart Health &amp; Cholesterol
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6">
+              Cardiovascular lipid optimization focusing on reducing LDL, triglycerides, and hypertension while elevating HDL using antioxidant-rich dietary protocols.
+            </p>
+</div>
+<div class="pt-4 border-t border-outline-variant/30 flex items-center justify-between">
+<span class="text-label-sm font-label-sm text-outline">DASH-Adapted Protocol</span>
+<a class="text-primary hover:text-secondary font-label-md text-label-md inline-flex items-center gap-1 font-semibold" href="#booking">
+<span>Book for this</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Service 5: Digestive Health Nutrition -->
+<div class="bg-surface-container-lowest rounded-2xl border border-outline-variant/40 p-8 clinical-card-shadow transition-all duration-300 flex flex-col justify-between group">
+<div>
+<div class="flex items-center justify-between mb-6">
+<div class="w-12 h-12 rounded-xl bg-primary-container/40 flex items-center justify-center text-primary group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-2xl">vital_signs</span>
+</div>
+<span class="px-3 py-1 rounded-full bg-surface-container text-secondary text-label-sm font-label-sm">
+                Gut Microbiome
+              </span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface mb-3 font-semibold group-hover:text-primary transition-colors">
+              Digestive Health Nutrition
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6">
+              Relief from IBS, GERD, acid reflux, bloating, chronic constipation, and food intolerances through staged low-FODMAP protocols and gut mucosal repair.
+            </p>
+</div>
+<div class="pt-4 border-t border-outline-variant/30 flex items-center justify-between">
+<span class="text-label-sm font-label-sm text-outline">Microbiome Reset</span>
+<a class="text-primary hover:text-secondary font-label-md text-label-md inline-flex items-center gap-1 font-semibold" href="#booking">
+<span>Book for this</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Service 6: Pregnancy & Maternal Nutrition -->
+<div class="bg-surface-container-lowest rounded-2xl border border-outline-variant/40 p-8 clinical-card-shadow transition-all duration-300 flex flex-col justify-between group">
+<div>
+<div class="flex items-center justify-between mb-6">
+<div class="w-12 h-12 rounded-xl bg-secondary-container flex items-center justify-center text-primary group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-2xl">pregnant_woman</span>
+</div>
+<span class="px-3 py-1 rounded-full bg-surface-container text-secondary text-label-sm font-label-sm">
+                Maternal Care
+              </span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface mb-3 font-semibold group-hover:text-primary transition-colors">
+              Pregnancy &amp; Maternal Nutrition
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6">
+              Nourishing both mother and child through preconception optimization, trimester-specific micronutrient needs, postpartum healing, and lactation support.
+            </p>
+</div>
+<div class="pt-4 border-t border-outline-variant/30 flex items-center justify-between">
+<span class="text-label-sm font-label-sm text-outline">Trimester Tailoring</span>
+<a class="text-primary hover:text-secondary font-label-md text-label-md inline-flex items-center gap-1 font-semibold" href="#booking">
+<span>Book for this</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Service 7: Therapeutic Diet Planning -->
+<div class="bg-surface-container-lowest rounded-2xl border border-outline-variant/40 p-8 clinical-card-shadow transition-all duration-300 flex flex-col justify-between group">
+<div>
+<div class="flex items-center justify-between mb-6">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center text-primary group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-2xl">prescriptions</span>
+</div>
+<span class="px-3 py-1 rounded-full bg-surface-container text-secondary text-label-sm font-label-sm">
+                Clinical Pathology
+              </span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface mb-3 font-semibold group-hover:text-primary transition-colors">
+              Therapeutic Diet Planning
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6">
+              Prescribed clinical nutritional regimes for renal care (CKD), fatty liver disease (NAFLD), gout (uric acid reduction), and surgical recovery.
+            </p>
+</div>
+<div class="pt-4 border-t border-outline-variant/30 flex items-center justify-between">
+<span class="text-label-sm font-label-sm text-outline">Physician-Coordinated</span>
+<a class="text-primary hover:text-secondary font-label-md text-label-md inline-flex items-center gap-1 font-semibold" href="#booking">
+<span>Book for this</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Service 8: Personalized Meal Plans -->
+<div class="bg-surface-container-lowest rounded-2xl border border-outline-variant/40 p-8 clinical-card-shadow transition-all duration-300 flex flex-col justify-between group">
+<div>
+<div class="flex items-center justify-between mb-6">
+<div class="w-12 h-12 rounded-xl bg-tertiary-container flex items-center justify-center text-on-tertiary-container group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-2xl">restaurant_menu</span>
+</div>
+<span class="px-3 py-1 rounded-full bg-surface-container text-secondary text-label-sm font-label-sm">
+                Daily Structure
+              </span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface mb-3 font-semibold group-hover:text-primary transition-colors">
+              Personalized Meal Plans
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6">
+              Calorie-counted, macro-measured weekly rotational diets utilizing familiar pantry staples, grocery lists, portion diagrams, and quick healthy home recipes.
+            </p>
+</div>
+<div class="pt-4 border-t border-outline-variant/30 flex items-center justify-between">
+<span class="text-label-sm font-label-sm text-outline">Recipe PDF Included</span>
+<a class="text-primary hover:text-secondary font-label-md text-label-md inline-flex items-center gap-1 font-semibold" href="#booking">
+<span>Book for this</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Service 9: Online Nutrition Consultation -->
+<div class="bg-surface-container-lowest rounded-2xl border border-outline-variant/40 p-8 clinical-card-shadow transition-all duration-300 flex flex-col justify-between group">
+<div>
+<div class="flex items-center justify-between mb-6">
+<div class="w-12 h-12 rounded-xl bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed-variant group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-2xl">videocam</span>
+</div>
+<span class="px-3 py-1 rounded-full bg-surface-container text-secondary text-label-sm font-label-sm">
+                Worldwide Virtual Care
+              </span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface mb-3 font-semibold group-hover:text-primary transition-colors">
+              Online Nutrition Consultation
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6">
+              Secure HD video consultations for international &amp; overseas clients across UK, US, Canada, UAE, Saudi Arabia, and Pakistan with continuous WhatsApp check-ins.
+            </p>
+</div>
+<div class="pt-4 border-t border-outline-variant/30 flex items-center justify-between">
+<span class="text-label-sm font-label-sm text-outline">Flexible Timezones</span>
+<a class="text-primary hover:text-secondary font-label-md text-label-md inline-flex items-center gap-1 font-semibold" href="#booking">
+<span>Book for this</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- PERSONALIZED DIET PLANS ("Nutrition Plans Designed Around You") -->
+<section class="py-20 bg-surface-container-low border-t border-outline-variant/30" id="plans">
+<div class="max-w-[1360px] mx-auto px-6 md:px-12">
+<div class="text-center max-w-2xl mx-auto mb-16">
+<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-surface-container border border-outline-variant/50 text-secondary font-label-sm text-label-sm mb-3">
+<span>TAILORED PACKAGES</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-4">
+          Nutrition Plans Designed Around You
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+          Select the clinical program that aligns with your health objectives. Every program includes personalized macro breakdowns and ongoing support.
+        </p>
+</div>
+<!-- 6 Curated Diet Plan Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Plan 1 -->
+<div class="bg-surface-container-lowest rounded-2xl border border-outline-variant/40 p-8 clinical-card-shadow flex flex-col justify-between relative overflow-hidden">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="text-label-md font-label-md text-primary font-bold tracking-wide uppercase">Core Medical Plan</span>
+<span class="px-3 py-1 rounded-full bg-primary-fixed text-on-primary-fixed text-label-sm font-label-sm font-semibold">4 to 12 Weeks</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-3">
+              Weight Loss &amp; Recomposition
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6">
+              Fat reduction targeting visceral and subcutaneous fat deposits while preserving lean metabolic tissue.
+            </p>
+<ul class="space-y-3 mb-8 text-body-sm font-body-sm text-on-surface">
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<span>Personalized Calorie &amp; Macro Targets</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<span>Weekly Weight &amp; Measurement Review</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<span>Direct WhatsApp Accountability &amp; Q&amp;A</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<span>Custom Dining-Out &amp; Travel Guide</span>
+</li>
+</ul>
+</div>
+<a class="w-full py-3 rounded-full bg-primary hover:bg-secondary text-on-primary font-label-md text-label-md text-center transition-all shadow-sm" href="#booking">
+            Get Your Personalized Diet Plan
+          </a>
+</div>
+<!-- Plan 2: Diabetes Plan -->
+<div class="bg-surface-container-lowest rounded-2xl border border-outline-variant/40 p-8 clinical-card-shadow flex flex-col justify-between relative overflow-hidden">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="text-label-md font-label-md text-primary font-bold tracking-wide uppercase">Endocrine Support</span>
+<span class="px-3 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed text-label-sm font-label-sm font-semibold">8 to 16 Weeks</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-3">
+              Diabetes &amp; Pre-Diabetes Plan
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6">
+              Intensive glycemic stabilization aimed at optimizing fasting blood glucose and steadily lowering HbA1c.
+            </p>
+<ul class="space-y-3 mb-8 text-body-sm font-body-sm text-on-surface">
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<span>Continuous Glucose Monitoring (CGM) Review</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<span>Low Glycemic Index Food Pairings</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<span>Medication &amp; Insulin Time Coordination</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<span>Bi-weekly Lab Progress Monitoring</span>
+</li>
+</ul>
+</div>
+<a class="w-full py-3 rounded-full bg-primary hover:bg-secondary text-on-primary font-label-md text-label-md text-center transition-all shadow-sm" href="#booking">
+            Get Your Personalized Diet Plan
+          </a>
+</div>
+<!-- Plan 3: PCOS Plan (Featured Badge) -->
+<div class="bg-surface-container-lowest rounded-2xl border-2 border-primary p-8 clinical-card-shadow flex flex-col justify-between relative overflow-hidden">
+<div class="absolute top-0 right-0 bg-primary text-on-primary text-[10px] font-bold tracking-widest px-4 py-1 rounded-bl-xl uppercase">
+            Signature Protocol
+          </div>
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="text-label-md font-label-md text-primary font-bold tracking-wide uppercase">Hormone Balance</span>
+<span class="px-3 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed text-label-sm font-label-sm font-semibold">12 Weeks</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-3">
+              PCOS &amp; Hormonal Balance
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6">
+              Holistic protocol targeting the four root phenotypes of PCOS: insulin-resistant, inflammatory, adrenal, and post-pill.
+            </p>
+<ul class="space-y-3 mb-8 text-body-sm font-body-sm text-on-surface">
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<span>Anti-Inflammatory Whole-Food Protocols</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<span>Targeted Micronutrient &amp; Inositol Guidance</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<span>Ovulation &amp; Menstrual Tracking Integration</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<span>Direct WhatsApp Voice Note Support</span>
+</li>
+</ul>
+</div>
+<a class="w-full py-3 rounded-full bg-primary hover:bg-secondary text-on-primary font-label-md text-label-md text-center transition-all shadow-md" href="#booking">
+            Get Your Personalized Diet Plan
+          </a>
+</div>
+<!-- Plan 4: Desi / Pakistani Lifestyle -->
+<div class="bg-surface-container-lowest rounded-2xl border border-outline-variant/40 p-8 clinical-card-shadow flex flex-col justify-between relative overflow-hidden">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="text-label-md font-label-md text-primary font-bold tracking-wide uppercase">Culturally Rooted</span>
+<span class="px-3 py-1 rounded-full bg-surface-container text-secondary text-label-sm font-label-sm font-semibold">Rotational</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-3">
+              Pakistani &amp; Desi Lifestyle Plan
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6">
+              Enjoy roti, daal, curries, and biryani mindfully. No weird foreign ingredients—just traditional heritage food balanced with clinical portion control.
+            </p>
+<ul class="space-y-3 mb-8 text-body-sm font-body-sm text-on-surface">
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<span>Flour Mixes (Multigrain, Besan &amp; Bran Rotis)</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<span>Oil &amp; Ghee Optimization for Traditional Salans</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<span>Festive &amp; Dawat Strategy Guides</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<span>Desi Recipe Conversion Booklet</span>
+</li>
+</ul>
+</div>
+<a class="w-full py-3 rounded-full bg-primary hover:bg-secondary text-on-primary font-label-md text-label-md text-center transition-all shadow-sm" href="#booking">
+            Get Your Personalized Diet Plan
+          </a>
+</div>
+<!-- Plan 5: Wholesome Family Nutrition -->
+<div class="bg-surface-container-lowest rounded-2xl border border-outline-variant/40 p-8 clinical-card-shadow flex flex-col justify-between relative overflow-hidden">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="text-label-md font-label-md text-primary font-bold tracking-wide uppercase">Multi-Generational</span>
+<span class="px-3 py-1 rounded-full bg-surface-container text-secondary text-label-sm font-label-sm font-semibold">Monthly Subscription</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-3">
+              Wholesome Family Nutrition Plan
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6">
+              One kitchen, one unified table. Streamlined weekly grocery lists and wholesome recipes that children love and adults thrive upon.
+            </p>
+<ul class="space-y-3 mb-8 text-body-sm font-body-sm text-on-surface">
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<span>Child Growth &amp; School Lunchbox Ideas</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<span>Elderly Low-Sodium / Diabetic Adjustments</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<span>Weekly Kitchen Prep Guides</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<span>Smart Grocery Purchasing Checklists</span>
+</li>
+</ul>
+</div>
+<a class="w-full py-3 rounded-full bg-primary hover:bg-secondary text-on-primary font-label-md text-label-md text-center transition-all shadow-sm" href="#booking">
+            Get Your Personalized Diet Plan
+          </a>
+</div>
+<!-- Plan 6: Healthy Weight & Lean Mass Gain -->
+<div class="bg-surface-container-lowest rounded-2xl border border-outline-variant/40 p-8 clinical-card-shadow flex flex-col justify-between relative overflow-hidden">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="text-label-md font-label-md text-primary font-bold tracking-wide uppercase">Hypertrophy &amp; Vigor</span>
+<span class="px-3 py-1 rounded-full bg-surface-container text-secondary text-label-sm font-label-sm font-semibold">6 to 12 Weeks</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-3">
+              Healthy Weight &amp; Mass Gain
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6">
+              For underweight individuals or those recovering from illness wanting nutrient-dense caloric surplus without visceral fat accumulation.
+            </p>
+<ul class="space-y-3 mb-8 text-body-sm font-body-sm text-on-surface">
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<span>Calorie-Dense Smoothies &amp; Superfood Fats</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<span>Optimal Protein Distribution Protocols</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<span>Digestive Capacity &amp; Appetite Stimulators</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<span>Bio-impedance Skeletal Muscle Checkpoints</span>
+</li>
+</ul>
+</div>
+<a class="w-full py-3 rounded-full bg-primary hover:bg-secondary text-on-primary font-label-md text-label-md text-center transition-all shadow-sm" href="#booking">
+            Get Your Personalized Diet Plan
+          </a>
+</div>
+</div>
+</div>
+</section>
+<!-- BOOK AN APPOINTMENT (Interactive Clinical Form) -->
+<section class="py-24" id="booking">
+<div class="max-w-[1360px] mx-auto px-6 md:px-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+<!-- Left: Clinical Information & Reassurance -->
+<div class="lg:col-span-5">
+<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-surface-container border border-outline-variant/50 text-secondary font-label-sm text-label-sm mb-3">
+<span>START YOUR HEALING JOURNEY</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-4">
+            Schedule Your Clinical Consultation
+          </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed mb-8">
+            Consultations are held both in-person at our flagship medical suites in Lahore and online via confidential video telehealth worldwide.
+          </p>
+<!-- Clinic Hours Card -->
+<div class="bg-surface-container p-6 rounded-2xl border border-outline-variant/40 mb-6">
+<h3 class="font-title-md text-title-md text-primary mb-4 flex items-center gap-2">
+<span class="material-symbols-outlined">schedule</span>
+<span>Clinic Consultation Hours</span>
+</h3>
+<div class="space-y-2 text-body-sm font-body-sm">
+<div class="flex justify-between py-1 border-b border-outline-variant/30">
+<span class="text-on-surface-variant">Monday – Friday</span>
+<span class="font-semibold text-on-surface">10:00 AM – 7:00 PM (PKT)</span>
+</div>
+<div class="flex justify-between py-1 border-b border-outline-variant/30">
+<span class="text-on-surface-variant">Saturday</span>
+<span class="font-semibold text-on-surface">11:00 AM – 4:00 PM (PKT)</span>
+</div>
+<div class="flex justify-between py-1">
+<span class="text-on-surface-variant">Sunday</span>
+<span class="text-error font-medium">Closed (Online Emergency Only)</span>
+</div>
+</div>
+</div>
+<!-- Direct WhatsApp Assistance -->
+<div class="bg-primary/5 p-6 rounded-2xl border border-primary/20 flex items-start gap-4 mb-6">
+<div class="w-12 h-12 rounded-xl bg-[#25D366] text-white flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-2xl">chat</span>
+</div>
+<div>
+<h4 class="font-title-md text-title-md text-on-surface mb-1 font-semibold">Need Quick Help? Chat on WhatsApp</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-3">
+                Have questions about package tiers or urgent scheduling? Our clinic coordinator is available.
+              </p>
+<a class="inline-flex items-center gap-1.5 font-label-md text-label-md text-primary font-bold hover:underline" href="https://wa.me/923001234567" rel="noopener noreferrer" target="_blank">
+<span>Message +92 300 1234567</span>
+<span class="material-symbols-outlined text-sm">open_in_new</span>
+</a>
+</div>
+</div>
+<!-- Security Assurance Badge -->
+<div class="flex items-center gap-3 text-label-sm font-label-sm text-outline px-2">
+<span class="material-symbols-outlined text-primary text-xl">encrypted</span>
+<span>All medical records &amp; lab work are strictly encrypted and HIPAA-compliant.</span>
+</div>
+</div>
+<!-- Right: Structured Interactive Booking Form -->
+<div class="lg:col-span-7">
+<div class="bg-surface-container-lowest p-8 sm:p-10 rounded-3xl border border-outline-variant/50 clinical-card-shadow">
+<form id="booking-form" class="space-y-6">
+<!-- Consultation Mode Toggle -->
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-2 font-semibold">
+                  Consultation Format <span class="text-error">*</span>
+</label>
+<div class="grid grid-cols-2 gap-3">
+<label class="flex items-center justify-center gap-2 p-3.5 rounded-xl border-2 border-primary bg-primary-fixed/20 cursor-pointer font-label-md text-label-md text-primary font-semibold">
+<input checked="" class="text-primary focus:ring-primary h-4 w-4" name="consultation_type" type="radio" value="telehealth"/>
+<span class="material-symbols-outlined text-lg">videocam</span>
+<span>Online Tele-Consult</span>
+</label>
+<label class="flex items-center justify-center gap-2 p-3.5 rounded-xl border border-outline-variant/60 hover:bg-surface-container cursor-pointer font-label-md text-label-md text-on-surface-variant font-semibold">
+<input class="text-primary focus:ring-primary h-4 w-4" name="consultation_type" type="radio" value="in-person"/>
+<span class="material-symbols-outlined text-lg">apartment</span>
+<span>In-Person Clinic Visit</span>
+</label>
+</div>
+</div>
+<!-- Name & Email -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1.5 font-medium" for="fullName">
+                    Patient Full Name <span class="text-error">*</span>
+</label>
+<input class="w-full px-4 py-3 rounded-xl border border-outline-variant/80 bg-surface focus:ring-2 focus:ring-primary focus:border-primary text-body-md font-body-md transition-all" id="fullName" placeholder="e.g. Ayesha Siddiqui" required="" type="text"/>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1.5 font-medium" for="email">
+                    Email Address <span class="text-error">*</span>
+</label>
+<input class="w-full px-4 py-3 rounded-xl border border-outline-variant/80 bg-surface focus:ring-2 focus:ring-primary focus:border-primary text-body-md font-body-md transition-all" id="email" placeholder="ayesha@example.com" required="" type="email"/>
+</div>
+</div>
+<!-- Phone & Primary Health Goal -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1.5 font-medium" for="phone">
+                    Phone / WhatsApp Number <span class="text-error">*</span>
+</label>
+<input class="w-full px-4 py-3 rounded-xl border border-outline-variant/80 bg-surface focus:ring-2 focus:ring-primary focus:border-primary text-body-md font-body-md transition-all" id="phone" placeholder="+92 3XX XXXXXXX" required="" type="tel"/>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1.5 font-medium" for="goal">
+                    Primary Health Focus <span class="text-error">*</span>
+</label>
+<select class="w-full px-4 py-3 rounded-xl border border-outline-variant/80 bg-surface focus:ring-2 focus:ring-primary focus:border-primary text-body-md font-body-md transition-all" id="goal" required="">
+<option disabled="" selected="" value="">Select Primary Goal</option>
+<option value="weight">Weight Management &amp; Fat Loss</option>
+<option value="pcos">PCOS &amp; Hormonal Balance</option>
+<option value="diabetes">Diabetes &amp; Glycemic Health</option>
+<option value="gut">Digestive / IBS Health</option>
+<option value="cardio">Cholesterol &amp; Blood Pressure</option>
+<option value="pregnancy">Pregnancy / Postpartum Care</option>
+<option value="general">General Wellness &amp; Immunity</option>
+</select>
+</div>
+</div>
+<!-- Date & Slot -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1.5 font-medium" for="date">
+                    Preferred Date <span class="text-error">*</span>
+</label>
+<input class="w-full px-4 py-3 rounded-xl border border-outline-variant/80 bg-surface focus:ring-2 focus:ring-primary focus:border-primary text-body-md font-body-md transition-all" id="date" required="" type="date"/>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1.5 font-medium" for="time_slot">
+                    Preferred Time of Day <span class="text-error">*</span>
+</label>
+<select class="w-full px-4 py-3 rounded-xl border border-outline-variant/80 bg-surface focus:ring-2 focus:ring-primary focus:border-primary text-body-md font-body-md transition-all" id="time_slot" required="">
+<option value="morning">Morning (10:00 AM – 1:00 PM)</option>
+<option value="afternoon">Afternoon (1:00 PM – 4:00 PM)</option>
+<option selected="" value="evening">Evening (4:00 PM – 7:00 PM)</option>
+</select>
+</div>
+</div>
+<!-- Medical History / Message -->
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1.5 font-medium" for="history">
+                  Brief Medical Background &amp; Current Symptoms (Optional)
+                </label>
+<textarea class="w-full px-4 py-3 rounded-xl border border-outline-variant/80 bg-surface focus:ring-2 focus:ring-primary focus:border-primary text-body-md font-body-md transition-all" id="history" placeholder="Mention any recent blood tests, medications, or dietary restrictions (e.g. Thyroid, Lactose Intolerance)..." rows="3"></textarea>
+</div>
+<!-- Submit CTA -->
+<button class="w-full py-4 rounded-xl bg-primary hover:bg-secondary text-on-primary font-label-lg text-label-lg transition-all shadow-md active:scale-98 flex items-center justify-center gap-2" type="submit">
+<span class="material-symbols-outlined">event_available</span>
+<span>Confirm &amp; Book Consultation</span>
+</button>
+<p class="text-center font-label-sm text-label-sm text-outline">
+                No immediate payment required. Our coordinator verifies your slot within 2 business hours.
+              </p>
+</form>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- NUTRITION & WELLNESS INSIGHTS (Blog Section) -->
+<section class="py-20 bg-surface-container-low border-t border-outline-variant/30" id="insights">
+<div class="max-w-[1360px] mx-auto px-6 md:px-12">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-14">
+<div>
+<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-surface-container border border-outline-variant/50 text-secondary font-label-sm text-label-sm mb-3">
+<span>CLINICAL KNOWLEDGE BASE</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">
+            Nutrition &amp; Wellness Insights
+          </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl mt-2">
+            Evidence-based articles, healthy recipes, and debunked nutrition myths curated by Mehro Nisa Malik, RD.
+          </p>
+</div>
+<a class="mt-6 md:mt-0 inline-flex items-center gap-2 font-label-md text-label-md text-primary font-bold hover:underline" href="#booking">
+<span>Explore All Research Notes</span>
+<span class="material-symbols-outlined text-base">arrow_forward</span>
+</a>
+</div>
+<!-- 4 Featured Insight Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Article 1 -->
+<article class="bg-surface-container-lowest rounded-2xl border border-outline-variant/40 overflow-hidden clinical-card-shadow flex flex-col justify-between group">
+<div>
+<div class="h-44 bg-surface-container relative overflow-hidden">
+<div class="absolute inset-0 bg-primary/10 flex items-center justify-center text-primary group-hover:scale-105 transition-transform duration-300">
+<span class="material-symbols-outlined text-5xl">cardiology</span>
+</div>
+<span class="absolute top-3 left-3 bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-sm text-label-sm px-2.5 py-1 rounded-md">
+                PCOS Care
+              </span>
+</div>
+<div class="p-6">
+<span class="text-label-sm font-label-sm text-outline block mb-2">5 Min Read • Metabolic Health</span>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold mb-3 group-hover:text-primary transition-colors leading-snug">
+                PCOS &amp; Insulin Resistance: Why Carbs Aren't the Enemy
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3">
+                Discover why eliminating complex carbohydrates can backfire on progesterone production, cortisol levels, and menstrual regularity.
+              </p>
+</div>
+</div>
+<div class="p-6 pt-0">
+<span class="text-primary font-label-md text-label-md font-semibold inline-flex items-center gap-1 group-hover:underline">
+<span>Read Clinical Brief</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</span>
+</div>
+</article>
+<!-- Article 2 -->
+<article class="bg-surface-container-lowest rounded-2xl border border-outline-variant/40 overflow-hidden clinical-card-shadow flex flex-col justify-between group">
+<div>
+<div class="h-44 bg-surface-container relative overflow-hidden">
+<div class="absolute inset-0 bg-secondary-container/40 flex items-center justify-center text-secondary group-hover:scale-105 transition-transform duration-300">
+<span class="material-symbols-outlined text-5xl">rice_bowl</span>
+</div>
+<span class="absolute top-3 left-3 bg-surface-container-lowest/90 backdrop-blur-sm text-secondary font-label-sm text-label-sm px-2.5 py-1 rounded-md">
+                Cultural Dietetics
+              </span>
+</div>
+<div class="p-6">
+<span class="text-label-sm font-label-sm text-outline block mb-2">7 Min Read • Meal Composition</span>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold mb-3 group-hover:text-primary transition-colors leading-snug">
+                Mastering Balanced Pakistani Meals: Portion Control for Desi Staples
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3">
+                How to formulate high-protein, fiber-rich Salans, portion flatbreads, and pair legumes to keep blood sugar flat and sustained.
+              </p>
+</div>
+</div>
+<div class="p-6 pt-0">
+<span class="text-primary font-label-md text-label-md font-semibold inline-flex items-center gap-1 group-hover:underline">
+<span>Read Clinical Brief</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</span>
+</div>
+</article>
+<!-- Article 3 -->
+<article class="bg-surface-container-lowest rounded-2xl border border-outline-variant/40 overflow-hidden clinical-card-shadow flex flex-col justify-between group">
+<div>
+<div class="h-44 bg-surface-container relative overflow-hidden">
+<div class="absolute inset-0 bg-tertiary-container/30 flex items-center justify-center text-tertiary group-hover:scale-105 transition-transform duration-300">
+<span class="material-symbols-outlined text-5xl">hourglass_empty</span>
+</div>
+<span class="absolute top-3 left-3 bg-surface-container-lowest/90 backdrop-blur-sm text-tertiary font-label-sm text-label-sm px-2.5 py-1 rounded-md">
+                Myth Busting
+              </span>
+</div>
+<div class="p-6">
+<span class="text-label-sm font-label-sm text-outline block mb-2">4 Min Read • Clinical Studies</span>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold mb-3 group-hover:text-primary transition-colors leading-snug">
+                Debunking 5 Intermittent Fasting Myths with Clinical Evidence
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3">
+                Is 16/8 safe for women with thyroid dysfunctions? What medical research actually says about intermittent fasting and adrenal stress.
+              </p>
+</div>
+</div>
+<div class="p-6 pt-0">
+<span class="text-primary font-label-md text-label-md font-semibold inline-flex items-center gap-1 group-hover:underline">
+<span>Read Clinical Brief</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</span>
+</div>
+</article>
+<!-- Article 4 -->
+<article class="bg-surface-container-lowest rounded-2xl border border-outline-variant/40 overflow-hidden clinical-card-shadow flex flex-col justify-between group">
+<div>
+<div class="h-44 bg-surface-container relative overflow-hidden">
+<div class="absolute inset-0 bg-primary-fixed/40 flex items-center justify-center text-primary group-hover:scale-105 transition-transform duration-300">
+<span class="material-symbols-outlined text-5xl">water_drop</span>
+</div>
+<span class="absolute top-3 left-3 bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-sm text-label-sm px-2.5 py-1 rounded-md">
+                Gut Physiology
+              </span>
+</div>
+<div class="p-6">
+<span class="text-label-sm font-label-sm text-outline block mb-2">6 Min Read • Cellular Health</span>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold mb-3 group-hover:text-primary transition-colors leading-snug">
+                The Science of Hydration &amp; Gut Health: Beyond 8 Glasses a Day
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3">
+                Why electrolyte ratios matter far more than water volume for mucosal lining integrity, gastric acidity, and resolving sluggish bowels.
+              </p>
+</div>
+</div>
+<div class="p-6 pt-0">
+<span class="text-primary font-label-md text-label-md font-semibold inline-flex items-center gap-1 group-hover:underline">
+<span>Read Clinical Brief</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</span>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- PATIENT TESTIMONIALS & CLINICAL SUCCESS STORIES -->
+<section class="py-24" id="testimonials">
+<div class="max-w-[1360px] mx-auto px-6 md:px-12">
+<div class="text-center max-w-2xl mx-auto mb-16">
+<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-surface-container border border-outline-variant/50 text-secondary font-label-sm text-label-sm mb-3">
+<span>PATIENT SUCCESS STORIES</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-4">
+          Real Transformations, Lasting Health
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+          Read verified feedback and clinical milestones from patients guided through specialized dietary protocols across Pakistan and abroad.
+        </p>
+</div>
+<!-- Testimonials Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Story 1: PCOS & Hormonal Recovery -->
+<div class="bg-surface-container-lowest p-8 rounded-3xl border border-outline-variant/40 clinical-card-shadow flex flex-col justify-between">
+<div>
+<!-- Stars -->
+<div class="flex items-center gap-1 text-[#f59e0b] mb-4">
+<span class="material-symbols-outlined material-symbols-fill text-lg">star</span>
+<span class="material-symbols-outlined material-symbols-fill text-lg">star</span>
+<span class="material-symbols-outlined material-symbols-fill text-lg">star</span>
+<span class="material-symbols-outlined material-symbols-fill text-lg">star</span>
+<span class="material-symbols-outlined material-symbols-fill text-lg">star</span>
+</div>
+<!-- Milestone Badge -->
+<div class="inline-block px-3 py-1 rounded-md bg-secondary-container/60 text-primary font-label-sm text-label-sm font-semibold mb-4">
+              ✨ Reversed PCOS symptoms in 4 months
+            </div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6">
+              "Before consulting Mehro Nisa, I had irregular cycles for two years and had been told crash dieting was my only option. Mehro designed a plan with real food, including rotis and lentils! My cycles are now completely regular, acne cleared up, and I have boundless energy."
+            </p>
+</div>
+<div class="pt-5 border-t border-outline-variant/30 flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-primary-fixed flex items-center justify-center text-primary font-bold">
+              AK
+            </div>
+<div>
+<p class="font-title-md text-title-md text-on-surface font-semibold leading-tight">Ayesha K.</p>
+<p class="font-label-sm text-label-sm text-outline">Lahore, Pakistan • PCOS Protocol</p>
+</div>
+</div>
+</div>
+<!-- Story 2: Diabetes Management -->
+<div class="bg-surface-container-lowest p-8 rounded-3xl border border-outline-variant/40 clinical-card-shadow flex flex-col justify-between">
+<div>
+<!-- Stars -->
+<div class="flex items-center gap-1 text-[#f59e0b] mb-4">
+<span class="material-symbols-outlined material-symbols-fill text-lg">star</span>
+<span class="material-symbols-outlined material-symbols-fill text-lg">star</span>
+<span class="material-symbols-outlined material-symbols-fill text-lg">star</span>
+<span class="material-symbols-outlined material-symbols-fill text-lg">star</span>
+<span class="material-symbols-outlined material-symbols-fill text-lg">star</span>
+</div>
+<!-- Milestone Badge -->
+<div class="inline-block px-3 py-1 rounded-md bg-primary-fixed/70 text-on-primary-fixed-variant font-label-sm text-label-sm font-semibold mb-4">
+              📉 HbA1c reduced from 8.2 to 5.6
+            </div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6">
+              "As a busy surgeon, my meal patterns were disastrous and my blood sugar was climbing unchecked. Mehro Nisa provided practical, hospital-friendly meal options and clinical guidance that brought my HbA1c down into pre-diabetic remission without extreme medication increases."
+            </p>
+</div>
+<div class="pt-5 border-t border-outline-variant/30 flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed-variant font-bold">
+              TM
+            </div>
+<div>
+<p class="font-title-md text-title-md text-on-surface font-semibold leading-tight">Dr. Tariq M.</p>
+<p class="font-label-sm text-label-sm text-outline">Karachi, Pakistan • Glycemic Management</p>
+</div>
+</div>
+</div>
+<!-- Story 3: Sustainable Weight Loss -->
+<div class="bg-surface-container-lowest p-8 rounded-3xl border border-outline-variant/40 clinical-card-shadow flex flex-col justify-between">
+<div>
+<!-- Stars -->
+<div class="flex items-center gap-1 text-[#f59e0b] mb-4">
+<span class="material-symbols-outlined material-symbols-fill text-lg">star</span>
+<span class="material-symbols-outlined material-symbols-fill text-lg">star</span>
+<span class="material-symbols-outlined material-symbols-fill text-lg">star</span>
+<span class="material-symbols-outlined material-symbols-fill text-lg">star</span>
+<span class="material-symbols-outlined material-symbols-fill text-lg">star</span>
+</div>
+<!-- Milestone Badge -->
+<div class="inline-block px-3 py-1 rounded-md bg-tertiary-container/50 text-on-tertiary-container font-label-sm text-label-sm font-semibold mb-4">
+              ⚖️ Lost 14kg with traditional Pakistani foods
+            </div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6">
+              "Being an expat in Dubai, I struggled with meal prep and dining out with family. Mehro tailored the plan around my local grocery stores and family gatherings. I dropped 14 kg over 5 months, and more importantly, my lipid profile normalized completely!"
+            </p>
+</div>
+<div class="pt-5 border-t border-outline-variant/30 flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed font-bold">
+              SB
+            </div>
+<div>
+<p class="font-title-md text-title-md text-on-surface font-semibold leading-tight">Sarah B.</p>
+<p class="font-label-sm text-label-sm text-outline">Dubai, UAE • Virtual Tele-Consultation</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CONTACT & CLINIC ACCESS SECTION -->
+<section class="py-20 bg-surface-container-high border-t border-outline-variant/40" id="contact">
+<div class="max-w-[1360px] mx-auto px-6 md:px-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+<!-- Left Contact Info -->
+<div class="lg:col-span-6">
+<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-surface-container border border-outline-variant/50 text-secondary font-label-sm text-label-sm mb-4">
+<span>CLINIC ACCESS &amp; INQUIRIES</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-6">
+            Get In Touch With Mehro Nisa
+          </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-8 leading-relaxed">
+            Have questions about clinical dietetics, media speaking engagements, corporate wellness workshops, or private consultations? Reach out through our direct clinic channels.
+          </p>
+<div class="space-y-6">
+<!-- WhatsApp Direct -->
+<a class="flex items-center gap-4 p-4 rounded-2xl bg-surface-container-lowest border border-outline-variant/40 clinical-card-shadow group" href="https://wa.me/923001234567" rel="noopener noreferrer" target="_blank">
+<div class="w-12 h-12 rounded-xl bg-[#25D366]/10 text-[#128C7E] flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-2xl">chat</span>
+</div>
+<div>
+<p class="text-label-sm font-label-sm text-outline">WhatsApp Consultation Line</p>
+<p class="text-title-md font-title-md text-on-surface font-semibold">+92 300 1234567</p>
+</div>
+</a>
+<!-- Clinic Email -->
+<div class="flex items-center gap-4 p-4 rounded-2xl bg-surface-container-lowest border border-outline-variant/40 clinical-card-shadow">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-2xl">mail</span>
+</div>
+<div>
+<p class="text-label-sm font-label-sm text-outline">Clinical Email Inquiries</p>
+<p class="text-title-md font-title-md text-on-surface font-semibold">clinic@mehronisadietitian.com</p>
+</div>
+</div>
+<!-- In-Person Lahore Clinic -->
+<div class="flex items-center gap-4 p-4 rounded-2xl bg-surface-container-lowest border border-outline-variant/40 clinical-card-shadow">
+<div class="w-12 h-12 rounded-xl bg-secondary-container flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-2xl">location_on</span>
+</div>
+<div>
+<p class="text-label-sm font-label-sm text-outline">In-Person Consultation Clinic</p>
+<p class="text-title-md font-title-md text-on-surface font-semibold">Suite 402, Elite Wellness Medical Tower, Gulberg III, Lahore, Pakistan</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Right: Telehealth & Global Coverage Interactive Banner -->
+<div class="lg:col-span-6 flex flex-col justify-between">
+<div class="bg-surface-container-lowest p-8 sm:p-10 rounded-3xl border border-outline-variant/40 clinical-card-shadow h-full flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-2xl bg-primary text-on-primary flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-2xl">public</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-3">
+                Global Virtual Consultations
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6">
+                No matter where you live, you can access clinical medical nutrition therapy. We serve patients across the United Kingdom, United States, Canada, UAE, Saudi Arabia, Qatar, and Pakistan.
+              </p>
+<!-- Global Telehealth Badges -->
+<div class="flex flex-wrap gap-2 mb-8">
+<span class="px-3 py-1.5 rounded-full bg-surface-container text-on-surface-variant text-label-sm font-label-sm">🇬🇧 United Kingdom</span>
+<span class="px-3 py-1.5 rounded-full bg-surface-container text-on-surface-variant text-label-sm font-label-sm">🇦🇪 UAE / Middle East</span>
+<span class="px-3 py-1.5 rounded-full bg-surface-container text-on-surface-variant text-label-sm font-label-sm">🇺🇸 USA &amp; Canada</span>
+<span class="px-3 py-1.5 rounded-full bg-surface-container text-on-surface-variant text-label-sm font-label-sm">🇵🇰 Pakistan Nationwide</span>
+</div>
+</div>
+<!-- Social Links -->
+<div class="pt-6 border-t border-outline-variant/30 flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-outline">Follow Clinical Insights:</span>
+<div class="flex items-center gap-3">
+<a aria-label="Instagram" class="w-10 h-10 rounded-full bg-surface-container hover:bg-primary-container text-primary flex items-center justify-center transition-colors" href="#">
+<span class="material-symbols-outlined text-lg">camera</span>
+</a>
+<a aria-label="LinkedIn" class="w-10 h-10 rounded-full bg-surface-container hover:bg-primary-container text-primary flex items-center justify-center transition-colors" href="#">
+<span class="material-symbols-outlined text-lg">badge</span>
+</a>
+<a aria-label="YouTube" class="w-10 h-10 rounded-full bg-surface-container hover:bg-primary-container text-primary flex items-center justify-center transition-colors" href="#">
+<span class="material-symbols-outlined text-lg">smart_display</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- WEB FOOTER (Footer Shared Component) -->
+<footer class="bg-surface-container dark:bg-surface-container-high border-t border-outline-variant/30">
+<div class="w-full px-6 md:px-12 max-w-[1360px] mx-auto py-16">
+<!-- Footer Top Section -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b border-outline-variant/30">
+<!-- Brand Info -->
+<div class="md:col-span-5">
+<div class="flex items-center gap-3 mb-4">
+<div class="w-9 h-9 rounded-full bg-primary-container flex items-center justify-center text-on-primary-container font-headline-sm font-semibold">
+              M
+            </div>
+<span class="text-title-lg font-title-lg text-primary dark:text-inverse-primary tracking-tight font-bold">
+              Mehro Nisa Malik
+            </span>
+</div>
+<p class="text-body-sm font-body-sm text-on-surface-variant max-w-sm leading-relaxed mb-4">
+            Registered Clinical Dietitian &amp; Certified Nutrition Consultant. Dedicated to transformative metabolic, hormonal, and sustainable health through medical nutrition therapy.
+          </p>
+<div class="text-label-sm font-label-sm text-outline">
+            National Registry: RD-48291 • Member PNDS &amp; AND
+          </div>
+</div>
+<!-- Links Col 1 -->
+<div class="md:col-span-3">
+<h4 class="font-title-md text-title-md text-on-surface font-semibold mb-4">Clinical Services</h4>
+<ul class="space-y-2.5 text-body-sm font-body-sm text-on-surface-variant">
+<li><a class="hover:text-primary transition-colors" href="#services">PCOS &amp; Hormonal Balance</a></li>
+<li><a class="hover:text-primary transition-colors" href="#services">Diabetes &amp; Glycemic Control</a></li>
+<li><a class="hover:text-primary transition-colors" href="#services">Digestive Health &amp; Gut Microbiome</a></li>
+<li><a class="hover:text-primary transition-colors" href="#services">Targeted Weight Management</a></li>
+<li><a class="hover:text-primary transition-colors" href="#services">Online Global Consultations</a></li>
+</ul>
+</div>
+<!-- Links Col 2 -->
+<div class="md:col-span-4">
+<h4 class="font-title-md text-title-md text-on-surface font-semibold mb-4">Patient Resources &amp; Legal</h4>
+<ul class="space-y-2.5 text-body-sm font-body-sm text-on-surface-variant">
+<li><a class="hover:text-primary transition-colors" href="#">Clinical Disclaimer</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Privacy Policy</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Terms of Consultation</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Accreditation &amp; Registry</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Patient Portal</a></li>
+</ul>
+</div>
+</div>
+<!-- Medical Disclaimer & Legal Footnote -->
+<div class="pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
+<p class="text-body-sm font-body-sm text-outline max-w-2xl leading-relaxed">
+<strong>Medical Disclaimer:</strong> The clinical nutrition information provided on this website is for educational and guidance purposes. It is not intended to substitute for personal diagnosis, direct physician examinations, or emergency hospital treatment. Always consult your primary care doctor alongside nutritional interventions.
+        </p>
+<p class="text-body-sm font-body-sm text-outline shrink-0">
+          © 2024 Mehro Nisa Malik, RD. All rights reserved. Registered Clinical Dietitian &amp; Certified Nutrition Consultant.
+        </p>
+</div>
+</div>
+</footer>
+
+<!-- Booking Confirmation Modal -->
+<div id="booking-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm hidden opacity-0 transition-opacity duration-300">
+  <div class="bg-surface-container-lowest max-w-lg w-full rounded-3xl p-8 border border-outline-variant/50 shadow-2xl transform scale-95 transition-transform duration-300">
+    <div class="w-16 h-16 rounded-full bg-secondary-container/70 text-primary flex items-center justify-center mx-auto mb-6">
+      <span class="material-symbols-outlined text-4xl">check_circle</span>
+    </div>
+    <h3 class="font-headline-sm text-headline-sm text-center text-on-surface mb-2 font-bold">
+      Consultation Request Confirmed
+    </h3>
+    <p class="font-body-md text-body-md text-on-surface-variant text-center mb-6 leading-relaxed">
+      Thank you, <strong id="modal-patient-name" class="text-primary font-semibold"></strong>! Your appointment inquiry has been registered with Mehro Nisa's clinic.
+    </p>
+
+    <!-- Appointment Summary Card -->
+    <div class="bg-surface-container-low rounded-2xl p-5 mb-6 space-y-2.5 text-body-sm font-body-sm border border-outline-variant/30">
+      <div class="flex justify-between items-center">
+        <span class="text-outline">Mode:</span>
+        <span id="modal-mode" class="font-semibold text-on-surface capitalize">Tele-Consult</span>
+      </div>
+      <div class="flex justify-between items-center">
+        <span class="text-outline">Preferred Date:</span>
+        <span id="modal-date" class="font-semibold text-on-surface">-</span>
+      </div>
+      <div class="flex justify-between items-center">
+        <span class="text-outline">Time Slot:</span>
+        <span id="modal-slot" class="font-semibold text-on-surface capitalize">-</span>
+      </div>
+      <div class="flex justify-between items-center">
+        <span class="text-outline">Primary Focus:</span>
+        <span id="modal-goal" class="font-semibold text-primary capitalize">-</span>
+      </div>
+    </div>
+
+    <div class="flex flex-col sm:flex-row gap-3">
+      <a id="modal-whatsapp-btn" class="flex-1 py-3 px-4 rounded-xl bg-[#25D366] hover:bg-[#20bd5a] text-white font-label-md text-label-md flex items-center justify-center gap-2 font-semibold shadow-sm transition-all" href="#" target="_blank">
+        <span class="material-symbols-outlined text-lg">chat</span>
+        <span>Message Clinic on WhatsApp</span>
+      </a>
+      <button id="modal-close-btn" class="py-3 px-5 rounded-xl border border-outline-variant hover:bg-surface-container text-on-surface font-label-md text-label-md font-semibold transition-all">
+        Close
+      </button>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Mobile menu toggle
+  const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+  const mobileMenu = document.getElementById('mobile-menu');
+  const menuIcon = document.getElementById('menu-icon');
+
+  if (mobileMenuBtn && mobileMenu) {
+    mobileMenuBtn.addEventListener('click', () => {
+      const isHidden = mobileMenu.classList.contains('hidden');
+      if (isHidden) {
+        mobileMenu.classList.remove('hidden');
+        menuIcon.textContent = 'close';
+      } else {
+        mobileMenu.classList.add('hidden');
+        menuIcon.textContent = 'menu';
+      }
+    });
+
+    // Close menu when clicking any nav link
+    mobileMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+        menuIcon.textContent = 'menu';
+      });
+    });
+  }
+
+  // Booking Form Submission & Modal Handling
+  const bookingForm = document.getElementById('booking-form');
+  const modal = document.getElementById('booking-modal');
+  const modalCloseBtn = document.getElementById('modal-close-btn');
+
+  if (bookingForm && modal) {
+    bookingForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+
+      const fullName = document.getElementById('fullName').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const phone = document.getElementById('phone').value.trim();
+      const goalEl = document.getElementById('goal');
+      const goalText = goalEl.options[goalEl.selectedIndex]?.text || '';
+      const date = document.getElementById('date').value;
+      const slotEl = document.getElementById('time_slot');
+      const slotText = slotEl.options[slotEl.selectedIndex]?.text || '';
+      const mode = document.querySelector('input[name="consultation_type"]:checked')?.value || 'telehealth';
+
+      document.getElementById('modal-patient-name').textContent = fullName || 'Patient';
+      document.getElementById('modal-mode').textContent = mode === 'telehealth' ? 'Online Tele-Consult (Video)' : 'In-Person Clinic Visit (Lahore)';
+      document.getElementById('modal-date').textContent = date || 'To be scheduled';
+      document.getElementById('modal-slot').textContent = slotText || 'Preferred slot';
+      document.getElementById('modal-goal').textContent = goalText || 'General Consultation';
+
+      // Build WhatsApp message link
+      const waText = encodeURIComponent(
+        `Hello Mehro Nisa Malik Clinic,\n\nI just requested a consultation on your website:\n` +
+        `• Name: ${fullName}\n` +
+        `• Phone: ${phone}\n` +
+        `• Mode: ${mode === 'telehealth' ? 'Online Tele-Consult' : 'In-Person Clinic'}\n` +
+        `• Focus: ${goalText}\n` +
+        `• Date: ${date} (${slotText})\n\nPlease let me know the available confirmation time.`
+      );
+      document.getElementById('modal-whatsapp-btn').href = `https://wa.me/923001234567?text=${waText}`;
+
+      // Show modal
+      modal.classList.remove('hidden');
+      requestAnimationFrame(() => {
+        modal.classList.remove('opacity-0');
+        const inner = modal.querySelector('div');
+        if (inner) inner.classList.remove('scale-95');
+      });
+
+      bookingForm.reset();
+    });
+
+    const closeModal = () => {
+      modal.classList.add('opacity-0');
+      const inner = modal.querySelector('div');
+      if (inner) inner.classList.add('scale-95');
+      setTimeout(() => {
+        modal.classList.add('hidden');
+      }, 300);
+    };
+
+    modalCloseBtn?.addEventListener('click', closeModal);
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) closeModal();
+    });
+  }
+</script>
+</body></html>
